@@ -1,18 +1,17 @@
+<!-- PROJECT SHIELDS -->
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
   <a href="https://github.com/dafonso/url-shortner">
-    <img src="public/img/undraw_loading_frh4.svg" alt="Logo" width="128" height="128">
+    <img src="public/img/undraw_link_shortener_mvf6.svg" alt="Logo" width="128" height="128">
   </a>
 
   <h3 align="center">URL Shortener</h3>
-  <p align="center">
-  <!-- PROJECT SHIELDS -->
-  [![Contributors][contributors-shield]][contributors-url]
-  [![Forks][forks-shield]][forks-url]
-  [![Stargazers][stars-shield]][stars-url]
-  [![Issues][issues-shield]][issues-url]
-  [![MIT License][license-shield]][license-url]</p>
 
   <p align="center">
     An URL shortener app done as a code challenge. 
@@ -127,7 +126,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Diogo Afonso - [@twitter_handle](https://twitter.com/dafonso) 
+Diogo Afonso - [@dafonso](https://twitter.com/dafonso) 
 
 Project Link: [https://github.com/dafonso/url-shortener](https://github.com/dafonso/url-shortener)
 
