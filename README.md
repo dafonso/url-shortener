@@ -25,7 +25,7 @@
       <img src="https://img.shields.io/github/license/dafonso/url-shortener.svg">
   </a>
 </p>
-<p align="center"
+<p align="center">
   A simple URL shortener app done as a code challenge. 
   <br />
   <br />
