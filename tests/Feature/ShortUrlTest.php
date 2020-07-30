@@ -13,7 +13,7 @@ class ShortUrlTest extends TestCase
     use DatabaseMigrations;
 
     /** @test  */
-    public function a_target_url_is_required()
+    public function test_a_target_url_is_required()
     {
         $wrongPayload =  [
             'target_url' => ''
@@ -28,8 +28,7 @@ class ShortUrlTest extends TestCase
             ]);
     }
 
-    /** @test */
-    public function a_target_url_must_be_valid() {
+    public function test_a_target_url_must_be_valid() {
         $wrongPayload =  [
             'target_url' => 'http-some-dummy-invalid-link'
         ];
@@ -43,8 +42,7 @@ class ShortUrlTest extends TestCase
             ]);
     }
 
-    /** @test */
-    public function a_target_url_is_stored() {
+    public function test_a_target_url_is_stored() {
         $shortUrl = make(ShortUrl::class);
 
         $payload = [
@@ -65,16 +63,14 @@ class ShortUrlTest extends TestCase
             ]);
     }
 
-    /** @test */
-    public function a_short_url_redirects_properly_when_accessed() {
+    public function test_a_short_url_redirects_properly_when_accessed() {
         $shortUrl = create(ShortUrl::class);
 
         $this->get('r/' . $shortUrl->code)
             ->assertRedirect($shortUrl->target_url);
     }
 
-    /** @test */
-    public function a_short_url_visit_increments_the_click_counter() {
+    public function test_a_short_url_visit_increments_the_click_counter() {
         $shortUrl = create(ShortUrl::class);
 
         $clicksBeforeVisit = $shortUrl->clicks;
@@ -87,8 +83,7 @@ class ShortUrlTest extends TestCase
         $this->assertTrue($shortUrl->clicks > $clicksBeforeVisit);
     }
 
-    /** @test */
-    public function a_short_url_visit_changes_the_updated_at_field() {
+    public function test_a_short_url_visit_changes_the_updated_at_field() {
         $shortUrl = create(ShortUrl::class);
 
         $updatedAtBeforeVisit = $shortUrl->updated_at;
@@ -102,8 +97,7 @@ class ShortUrlTest extends TestCase
     }
 
 
-    /** @test */
-    public function a_short_url_can_be_retrieved() {
+    public function test_a_short_url_can_be_retrieved() {
         $shortUrl = create(ShortUrl::class);
 
         $this->getJson('api/shorturls/' . $shortUrl->access_token)
@@ -120,8 +114,7 @@ class ShortUrlTest extends TestCase
             ]);
     }
 
-    /** @test */
-    public function an_unknown_short_url_gets_a_404_response() {
+    public function test_an_unknown_short_url_gets_a_404_response() {
         $this->get('r/' . 'non-existing-short-url-code')
             ->assertStatus(404);
     }
