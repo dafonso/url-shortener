@@ -8,7 +8,7 @@
                 <div v-if="!loading && !notFound">
                     <h1 class="title">Hi there!</h1>
                     <h2 class="subtitle mb-5">
-                        In this page you can see your short link stats. Make sure to remember this link to access it in the future
+                        In this page you can see your short link stats. Make sure to remember this link to access it in the future.
                     </h2>
                     <table class="table is-fullwidth is-striped">
                         <thead>
@@ -36,7 +36,7 @@
                         <tr>
                             <td><strong>Last Visit</strong></td>
                             <td>
-                                <span v-if="shortUrl.created_at == shortUrl.updated_at">
+                                <span v-if="shortUrl.created_at === shortUrl.updated_at">
                                     Never
                                 </span>
                                 <span v-else>
@@ -115,7 +115,7 @@
         methods: {
             friendlyDate: function (date) {
                 const atMoment = moment(date);
-                return `${atMoment.fromNow()} on ${atMoment.format("dddd, MMMM Do YYYY, h:mm:ss a")}`;
+                return `${atMoment.fromNow()}  (${atMoment.format("dddd, MMMM Do YYYY, h:mm:ss a")})`;
             }
         }
     }
