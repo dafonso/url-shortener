@@ -47,7 +47,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![URL Shortener Screen Shot][product-screenshot]](https://example.com)
 
 ### Built With
 
@@ -149,6 +149,6 @@ Project Link: [https://github.com/dafonso/url-shortener](https://github.com/dafo
 [issues-url]: https://github.com/dafonso/url-shortener/issues
 [license-shield]: https://img.shields.io/github/license/dafonso/url-shortener.svg?style=flat-square
 [license-url]: https://github.com/dafonso/url-shortener/blob/master/LICENSE.txt
-[product-screenshot]: public/images/screenshot.png
+[product-screenshot]: public/img/screenshot01.png
 [build-shield]: https://img.shields.io/github/workflow/status/dafonso/url-shortener/Laravel
 [build-url]: https://github.com/dafonso/url-shortener/actions?query=workflow%3ALaravel
