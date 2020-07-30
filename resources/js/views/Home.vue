@@ -14,6 +14,7 @@
                             required autocomplete="off"
                             :class="{'is-danger' : error}"
                             v-model="targetUrl"
+                            @keyup.enter="shorten"
                             v-focus
                         >
                         <span class="icon is-small is-left">
