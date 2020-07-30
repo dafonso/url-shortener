@@ -7,7 +7,7 @@
                         <p class="title">
                             You can also use our API
                         </p>
-                        <img src="/img/undraw_developer_activity_bv83.svg" height="300" width="300">
+                        <img alt="Developer using API on computer" src="/img/undraw_developer_activity_bv83.svg" height="300" width="300">
                         <p class="subtitle mt-4">Beware you can only create 10 Short links per minute...</p>
                     </div>
                     <div class="column is-half">
@@ -34,10 +34,12 @@ puts response.read_body</code></pre>
 
 <script>
     import hljs from 'highlightjs';
-    hljs.initHighlightingOnLoad();
 
     export default {
-        name: "ApiAccessComponent"
+        name: "ApiAccessComponent",
+        mounted() {
+            hljs.initHighlightingOnLoad();
+        }
     }
 </script>
 

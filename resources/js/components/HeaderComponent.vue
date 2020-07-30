@@ -11,7 +11,7 @@
                                 A short URL is easy to remember and takes less space on your social media posts!
                             </p></div>
                         <div class="column">
-                            <img src="/img/undraw_link_shortener_mvf6.svg" height="250" width="250">
+                            <img alt="Short URL illustration" src="/img/undraw_link_shortener_mvf6.svg" height="250" width="250">
                         </div>
                     </div>
                 </div>

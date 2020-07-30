@@ -5,7 +5,9 @@
             <div class="container">
                 <div class="field is-grouped">
                     <div class="control has-icons-left is-expanded is-medium" :class="{'is-loading' : loading }">
+                        <label for="url" class="is-sr-only">Target URL for creation of short link</label>
                         <input
+                            id="url"
                             type="text"
                             value=""
                             name="url"
@@ -24,7 +26,7 @@
                     </div>
 
                     <div class="control is-medium">
-                        <button class="button is-medium is-link" @click="shorten()">
+                        <button class="button is-medium is-link" @click="shorten">
                             <strong class="px-4">Shorten</strong>
                         </button>
                     </div>
