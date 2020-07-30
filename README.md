@@ -24,15 +24,13 @@
   <a href="https://github.com/dafonso/url-shortener/blob/master/LICENSE.txt">
       <img src="https://img.shields.io/github/license/dafonso/url-shortener.svg">
   </a>
-  
+</p>
+<p align="center"
   A simple URL shortener app done as a code challenge. 
   <br />
-  
   <br />
-  ·
-  <a href="//github.com/dafonso/url-shortener/issues">Report Bug</a>
-  ·
-  <a href="//github.com/dafonso/url-shortener/issues">Request Feature</a> 
+  · <a href="//github.com/dafonso/url-shortener/issues">Report Bug</a>
+  · <a href="//github.com/dafonso/url-shortener/issues">Request Feature</a> 
 </p>
 
 
