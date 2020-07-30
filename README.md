@@ -33,7 +33,7 @@
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
 * [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
+  * [Requirements](#requirements)
   * [Installation](#installation)
 * [Usage](#usage)
 * [Roadmap](#roadmap)
@@ -62,11 +62,22 @@
 
 To get a local copy up and running follow these simple steps.
 
-### Prerequisites
+### Requirements
 
 This is an example of how to list things you need to use the software and how to install them.
-* PHP 7.2+
+* PHP >= 7.2.5
+   * BCMath PHP Extension
+   * Ctype PHP Extension
+   * Fileinfo PHP extension
+   * JSON PHP Extension
+   * Mbstring PHP Extension
+   * OpenSSL PHP Extension
+   * PDO PHP Extension
+   * Tokenizer PHP Extension
+   * XML PHP Extension
+   * SQLite PHP Extension
 * Composer
+* npm
 
 ### Installation
  
