@@ -26,7 +26,7 @@
   </a>
 </p>
 <p align="center">
-  A simple URL shortener app done as a code challenge. 
+  A simple, open-source URL shortener app. 
   <br />
   <br />
   · <a href="//github.com/dafonso/url-shortener/issues">Report Bug</a>
