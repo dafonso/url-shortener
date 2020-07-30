@@ -14,6 +14,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
-});
+Route::post('shorturls', 'API\ShortUrlController@store');
+Route::get('shorturls/{accessToken}', 'API\ShortUrlController@show');
+
+
+
