@@ -6,33 +6,33 @@
   </a>
 </p>
 <p align="center">
-    <a href="https://github.com/dafonso/url-shortener/actions?query=workflow%3ALaravel">
-        <img src="https://img.shields.io/github/workflow/status/dafonso/url-shortener/Laravel">
-    </a>
-    <a href="https://github.com/dafonso/url-shortener/graphs/contributors">
-        <img src="https://img.shields.io/github/contributors/dafonso/url-shortener.svg">
-    </a>
-    <a href="https://github.com/dafonso/url-shortener/network/members">
-        <img src="https://img.shields.io/github/forks/dafonso/url-shortener.svg">
-    </a>
-    <a href="https://github.com/dafonso/url-shortener/stargazers">
-        <img src="https://img.shields.io/github/stars/dafonso/url-shortener.svg">
-    </a>
-    <a href="https://github.com/dafonso/url-shortener/issues">
-        <img src="https://img.shields.io/github/issues/dafonso/url-shortener.svg">
-    </a>
-    <a href="https://github.com/dafonso/url-shortener/blob/master/LICENSE.txt">
-        <img src="https://img.shields.io/github/license/dafonso/url-shortener.svg">
-    </a>
-    
-    An URL shortener app done as a code challenge. 
-    <br />
-    
-    <br />
-    ·
-    <a href="//github.com/dafonso/url-shortener/issues">Report Bug</a>
-    ·
-    <a href="//github.com/dafonso/url-shortener/issues">Request Feature</a>  
+  <a href="https://github.com/dafonso/url-shortener/actions?query=workflow%3ALaravel">
+      <img src="https://img.shields.io/github/workflow/status/dafonso/url-shortener/Laravel">
+  </a>
+  <a href="https://github.com/dafonso/url-shortener/graphs/contributors">
+      <img src="https://img.shields.io/github/contributors/dafonso/url-shortener.svg">
+  </a>
+  <a href="https://github.com/dafonso/url-shortener/network/members">
+      <img src="https://img.shields.io/github/forks/dafonso/url-shortener.svg">
+  </a>
+  <a href="https://github.com/dafonso/url-shortener/stargazers">
+      <img src="https://img.shields.io/github/stars/dafonso/url-shortener.svg">
+  </a>
+  <a href="https://github.com/dafonso/url-shortener/issues">
+      <img src="https://img.shields.io/github/issues/dafonso/url-shortener.svg">
+  </a>
+  <a href="https://github.com/dafonso/url-shortener/blob/master/LICENSE.txt">
+      <img src="https://img.shields.io/github/license/dafonso/url-shortener.svg">
+  </a>
+  
+  A simple URL shortener app done as a code challenge. 
+  <br />
+  
+  <br />
+  ·
+  <a href="//github.com/dafonso/url-shortener/issues">Report Bug</a>
+  ·
+  <a href="//github.com/dafonso/url-shortener/issues">Request Feature</a> 
 </p>
 
 
