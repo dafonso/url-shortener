@@ -1,28 +1,38 @@
-<!-- PROJECT SHIELDS -->
-[![Build][build-shield]][build-url]
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/dafonso/url-shortner">
+  <a href="https://github.com/dafonso/url-shortener">
     <img src="public/img/undraw_link_shortener_mvf6.svg" alt="Logo" width="128" height="128">
   </a>
-
-  <h3 align="center">URL Shortener</h3>
-
-  <p align="center">
+</p>
+<p align="center">
+    <a href="https://github.com/dafonso/url-shortener/actions?query=workflow%3ALaravel">
+        <img src="https://img.shields.io/github/workflow/status/dafonso/url-shortener/Laravel">
+    </a>
+    <a href="https://github.com/dafonso/url-shortener/graphs/contributors">
+        <img src="https://img.shields.io/github/contributors/dafonso/url-shortener.svg">
+    </a>
+    <a href="https://github.com/dafonso/url-shortener/network/members">
+        <img src="https://img.shields.io/github/forks/dafonso/url-shortener.svg">
+    </a>
+    <a href="https://github.com/dafonso/url-shortener/stargazers">
+        <img src="https://img.shields.io/github/stars/dafonso/url-shortener.svg">
+    </a>
+    <a href="https://github.com/dafonso/url-shortener/issues">
+        <img src="https://img.shields.io/github/issues/dafonso/url-shortener.svg">
+    </a>
+    <a href="https://github.com/dafonso/url-shortener/blob/master/LICENSE.txt">
+        <img src="https://img.shields.io/github/license/dafonso/url-shortener.svg">
+    </a>
+    
     An URL shortener app done as a code challenge. 
     <br />
+    
     <br />
     ·
     <a href="//github.com/dafonso/url-shortener/issues">Report Bug</a>
     ·
-    <a href="//github.com/dafonso/url-shortener/issues">Request Feature</a>
-  </p>
+    <a href="//github.com/dafonso/url-shortener/issues">Request Feature</a>  
 </p>
 
 
@@ -48,7 +58,11 @@
 ## About The Project
 * Create a shortened link for a target URL
 * Access stats of that link
-[![URL Shortener Screen Shot][product-screenshot]](https://example.com)
+
+<p align="center">
+    <img alt="URL Shortener screenshot" src="public/img/screenshot01.png" alt="Logo" width="512">
+</p>
+
 
 ### Built With
 
