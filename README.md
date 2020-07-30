@@ -35,7 +35,7 @@
 * [Getting Started](#getting-started)
   * [Requirements](#requirements)
   * [Installation](#installation)
-* [Usage](#usage)
+* [Testing](#testing)
 * [Roadmap](#roadmap)
 * [Contributing](#contributing)
 * [License](#license)
@@ -46,7 +46,8 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
+* Create a shortened link for a target URL
+* Access stats of that link
 [![URL Shortener Screen Shot][product-screenshot]](https://example.com)
 
 ### Built With
@@ -82,34 +83,40 @@ This is an example of how to list things you need to use the software and how to
 ### Installation
  
 1. Clone url-shortener repo
-```sh
+```shell script
 git clone https://github.com/dafonso/url-shortener.git && cd url-shortener
 ```
 2. Install dependencies
-```sh
+```shell script
 npm install && composer install
 ```
 3. Copy .env.example file
-```sh
+```shell script
 cp .env.example .env
 ```
 4. Create SQLite file
-```sh
+```shell script
 touch database/database.sqlite
 ```
 5. Generate a new encryption key for the app
-```sh
+```shell script
 php artisan migrate:fresh
 ```
 6. Run Migrations
-```sh
+```shell script
 php artisan migrate:fresh
 ```
 7. Run Mix and Serve app
-```sh
+```shell script
 npm run prod && php artisan serve
 ```
 8. Access URL Shortener app on http://localhost:8000
+
+## Testing
+
+```shell script
+php artisan test
+```
 
 <!-- ROADMAP -->
 ## Roadmap
