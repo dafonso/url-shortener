@@ -12,20 +12,21 @@
     "devDependencies": {
         "axios": "^0.19",
         "browser-sync": "^2.26.12",
-        "browser-sync-webpack-plugin": "^2.0.1",
+        "browser-sync-webpack-plugin": "^2.2.2",
         "cross-env": "^7.0",
-        "laravel-mix": "^5.0.1",
+        "laravel-mix": "^5.0.7",
+        "laravel-mix-purgecss": "^5.0.0",
         "resolve-url-loader": "^2.3.1",
-        "sass": "^1.20.1",
+        "sass": "^1.27.0",
         "sass-loader": "^8.0.0",
-        "vue": "^2.5.17",
-        "vue-template-compiler": "^2.6.10"
+        "vue": "^2.6.12",
+        "vue-template-compiler": "^2.6.12"
     },
     "dependencies": {
-        "bulma": "^0.9.0",
+        "bulma": "^0.9.1",
         "highlightjs": "^9.16.2",
-        "moment": "^2.27.0",
+        "moment": "^2.29.1",
         "v-clipboard": "^2.2.3",
-        "vue-router": "^3.3.4"
+        "vue-router": "^3.4.6"
     }
 }
