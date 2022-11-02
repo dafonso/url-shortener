@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\ShortUrl;
+use App\Models\ShortUrl;
 use Illuminate\Http\Request;
 
 class ShortUrlController extends Controller

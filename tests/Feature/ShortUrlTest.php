@@ -2,7 +2,8 @@
 
 namespace Tests\Feature;
 
-use App\ShortUrl;
+
+use App\Models\ShortUrl;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Foundation\Testing\WithFaker;
@@ -43,6 +44,7 @@ class ShortUrlTest extends TestCase
     }
 
     public function test_a_target_url_is_stored() {
+        // $this->withoutExceptionHandling();
         $shortUrl = make(ShortUrl::class);
 
         $payload = [

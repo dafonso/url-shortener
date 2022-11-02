@@ -5,7 +5,7 @@ namespace App\Http\Controllers\API;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\ShortUrlRequest;
 use App\Http\Resources\ShortUrlResource;
-use App\ShortUrl;
+use App\Models\ShortUrl;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
 
